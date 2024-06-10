@@ -1,6 +1,5 @@
 import styles from "./Banner.module.css";
 import circuloColorido from "assets/circulo_colorido.png";
-import minhaFoto from "assets/minha_foto.png";
 
 const Banner = () => {
   return (
@@ -20,7 +19,11 @@ const Banner = () => {
           alt=""
           aria-hidden={true}
         />
-        <img className={styles.minhaFoto} src={minhaFoto} alt="eu" />
+        <img
+          className={styles.minhaFoto}
+          src={"https://github.com/camillamendess.png"}
+          alt="eu"
+        />
       </div>
     </div>
   );
