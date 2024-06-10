@@ -1,5 +1,5 @@
 const SobreMim = () => {
-  return <p>Sobre mim</p>;
+  return <h1>Sobre mim...</h1>;
 };
 
 export default SobreMim;
