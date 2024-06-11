@@ -1,4 +1,4 @@
-import PostModelo from "Componentes/PostModelo";
+import PostModelo from "Components/PostModelo";
 import fotoCapa from "assets/sobre_mim_capa.png";
 import styles from "./sobreMim.module.css";
 
