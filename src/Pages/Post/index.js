@@ -3,6 +3,7 @@ import posts from "json/posts.json";
 import PostModelo from "Components/PostModelo";
 import ReactMarkdown from "react-markdown";
 import "./Post.css";
+import NaoEncontrada from "Pages/NaoEncontrada";
 
 export default function Post() {
   const parametros = useParams();
@@ -11,8 +12,8 @@ export default function Post() {
     return post.id === Number(parametros.id);
   });
 
-  if(!post) {
-	return <h1>Post não encontrado</h1>
+  if (!post) {
+    return <NaoEncontrada />;
   }
 
   return (
