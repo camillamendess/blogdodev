@@ -79,6 +79,7 @@
 
   .titulo {
     margin-bottom: 2rem;
+    text-align: left;
   }
 
   .paragrafo {
@@ -110,20 +111,26 @@
 
 @media (max-width: 480px) {
   .banner {
-    padding: 1.5rem 1rem;
+    padding: 2.5rem 2rem;
+    height: 320px;
+  }
+
+  .titulo {
+    margin-bottom: 2rem;
+
   }
 
   .imagens {
-    height: auto; /* Ajusta a altura para caber o conteúdo */
+    height: 50px; /* Ajusta a altura para caber o conteúdo */
   }
 
   .imagens > .minhaFoto {
-    width: 150px;
-    transform: translate(3rem, 0px); /* Ajuste para posicionamento mais preciso */
+    width: 80px;
+    transform: translate(6rem, -14rem);
   }
 
   .imagens > .circuloColorido {
-    width: 200px;
-    transform: translate(-1rem, 0px); /* Ajuste para posicionamento mais preciso */
+    width: 130px;
+    transform: translate(4rem, -14rem);
   }
 }

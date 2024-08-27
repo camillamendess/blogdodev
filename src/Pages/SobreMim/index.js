@@ -1,5 +1,5 @@
 import PostModelo from "Components/PostModelo";
-import fotoCapa from "assets/sobre_mim_capa.png";
+// import fotoCapa from "assets/sobre_mim_capa.png";
 import styles from "./sobreMim.module.css";
 
 const SobreMim = () => {
