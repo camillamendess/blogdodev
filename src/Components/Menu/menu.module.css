@@ -1,15 +1,16 @@
 .navegacao {
-  height: 112px;
+  height: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 3rem;
+  background-color: var(--azul-escuro);
 }
 
 .link {
   font-size: 1.1rem;
   line-height: 1.5rem;
-  color: var(--cor-fonte-principal);
+  color: var(--branco);
 }
 
 .linkDestacado {

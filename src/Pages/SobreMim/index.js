@@ -4,7 +4,7 @@ import styles from "./sobreMim.module.css";
 
 const SobreMim = () => {
   return (
-    <PostModelo fotoCapa={fotoCapa} titulo="Sobre mim">
+    <PostModelo>
       <h3 className={styles.subtitulo}>Olá, eu sou Camilla!</h3>
 
       <img

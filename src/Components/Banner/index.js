@@ -5,11 +5,11 @@ const Banner = () => {
   return (
     <div className={styles.banner}>
       <div className={styles.apresentacao}>
-        <h1 className={styles.titulo}>Olá, Mundo!</h1>
+        <h1 className={styles.titulo}>Olá, Dev!</h1>
         <p className={styles.paragrafo}>
-          Boas vindas ao meu espaço pessoal! Eu sou Camilla Mendes, estudante de
-          Ciência da Computação e desenvolvimento web. Aqui compartilho vários
-          conhecimentos, espero que aprenda algo novo :)
+          Eu sou Camilla Mendes, estudante de
+          Ciência da Computação. Aqui compartilho vários
+          conhecimentos sobre programação web, espero que aprenda algo novo :)
         </p>
       </div>
       <div className={styles.imagens}>

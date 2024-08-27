@@ -4,13 +4,15 @@
   color: var(--branco);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 380px;
+  margin-bottom: 100px;
 }
 
 .titulo {
   font-family: var(--fonte-secundaria);
   font-size: 2rem;
-  margin-top: 4.875rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .paragrafo {
@@ -22,7 +24,7 @@
 
 .imagens {
   position: relative;
-  height: 406px;
+  height: 300px;
 }
 
 .imagens > .minhaFoto {
@@ -37,7 +39,7 @@
   position: absolute;
   right: 7vw;
   bottom: 2.2vw;
-  width: 25vw;
+  width: 22vw;
 }
 
 @media (max-width: 1100px) {

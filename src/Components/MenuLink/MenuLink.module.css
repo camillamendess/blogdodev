@@ -1,9 +1,14 @@
 .link {
   font-size: 1.1rem;
   line-height: 1.5rem;
-  color: var(--cor-fonte-principal);
+  color: var(--branco);
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .linkDestacado {
   text-decoration: underline;
+  font-weight: bold;
 }
