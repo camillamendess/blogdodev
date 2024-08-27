@@ -27,11 +27,47 @@
   .post {
     width: 336px;
   }
+
   .titulo {
     font-weight: 600;
   }
+
   .botaoLer {
     padding: 0.6875rem 1.5rem;
     font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 744px) {
+  .post {
+    width: 90%;
+    margin: 0 auto 1.5rem auto; /* Centraliza os posts e ajusta o espaçamento */
+  }
+
+  .titulo {
+    font-size: 1.1rem;
+    margin: 1rem 0 1.5rem;
+  }
+
+  .botaoLer {
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .post {
+    width: 100%;
+    margin: 0 auto 1.5rem auto; /* Ajusta os posts para ocuparem toda a largura da tela */
+  }
+
+  .titulo {
+    font-size: 1rem;
+    margin: 0.75rem 0 1.25rem;
+  }
+
+  .botaoLer {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
   }
 }

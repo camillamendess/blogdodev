@@ -74,6 +74,7 @@
   .banner {
     padding: 2rem 1rem;
     display: block;
+    text-align: center; /* Centraliza o conteúdo */
   }
 
   .titulo {
@@ -86,6 +87,7 @@
 
   .imagens {
     height: 307px;
+    margin-top: 2rem; /* Adiciona espaço entre o texto e as imagens */
   }
 
   .imagens > .minhaFoto,
@@ -103,5 +105,25 @@
   .imagens > .circuloColorido {
     width: 240px;
     transform: translate(-1.5rem, 0px);
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    padding: 1.5rem 1rem;
+  }
+
+  .imagens {
+    height: auto; /* Ajusta a altura para caber o conteúdo */
+  }
+
+  .imagens > .minhaFoto {
+    width: 150px;
+    transform: translate(3rem, 0px); /* Ajuste para posicionamento mais preciso */
+  }
+
+  .imagens > .circuloColorido {
+    width: 200px;
+    transform: translate(-1rem, 0px); /* Ajuste para posicionamento mais preciso */
   }
 }
