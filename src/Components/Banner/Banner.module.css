@@ -113,6 +113,7 @@
   .banner {
     padding: 2.5rem 2rem;
     height: 320px;
+    margin: 0;
   }
 
   .titulo {
@@ -122,6 +123,8 @@
 
   .imagens {
     height: 50px; /* Ajusta a altura para caber o conteúdo */
+    padding: 0;
+    margin: 0;
   }
 
   .imagens > .minhaFoto {
