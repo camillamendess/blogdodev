@@ -5,9 +5,9 @@
   background-repeat: no-repeat;
   background-position-y: -280px;
   color: var(--branco);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   height: 440px;
+  display: flex;
+  justify-content: center;
 }
 
 .apresentacao {

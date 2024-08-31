@@ -35,19 +35,24 @@
   }
 }
 
-@media (max-width: 744px) {
+@media (max-width: 768px) {
+  .sobreMim {
+    padding: 0 2rem;
+  }
+
   .fotoSobreMim {
     width: 100%;
   }
 
-  .subtitulo {
-    font-size: 1.2rem;
-    line-height: 2rem;
-    margin-bottom: 1.5rem;
+  .titulo {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    text-align: center;
   }
 
   .paragrafo {
     font-size: 1rem;
-    line-height: 1.75rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.9rem;
   }
 }
