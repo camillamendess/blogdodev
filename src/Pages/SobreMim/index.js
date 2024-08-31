@@ -1,12 +1,9 @@
-import PostModelo from "Components/PostModelo";
-// import fotoCapa from "assets/sobre_mim_capa.png";
 import styles from "./sobreMim.module.css";
 
 const SobreMim = () => {
   return (
-    <PostModelo>
-      <h3 className={styles.subtitulo}>Olá, eu sou Camilla!</h3>
-
+    <div className={styles.sobreMim}>
+      <h3 className={styles.titulo}>Olá, eu sou Camilla!</h3>
       <img
         src={"https://github.com/camillamendess.png"}
         alt="EU"
@@ -36,7 +33,7 @@ const SobreMim = () => {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, nobis
         cupiditate libero nemo assumenda rem?
       </p>
-    </PostModelo>
+    </div>
   );
 };
 

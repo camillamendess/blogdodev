@@ -1,139 +1,54 @@
 .banner {
-  padding: 3rem 7.5rem 6.25rem;
-  background-color: var(--azul-escuro);
+  padding: 2rem 5rem 6rem;
+  background-image: url("../../assets/fotonote1.jpg");
+  background-size: 230vh;
+  background-repeat: no-repeat;
+  background-position-y: -280px;
   color: var(--branco);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 380px;
-  margin-bottom: 100px;
+  height: 440px;
+}
+
+.apresentacao {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
 }
 
 .titulo {
   font-family: var(--fonte-secundaria);
   font-size: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
 }
 
 .paragrafo {
   font-family: var(--fonte-secundaria);
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 2rem;
   margin-bottom: 2rem;
 }
 
-.imagens {
-  position: relative;
-  height: 300px;
-}
-
-.imagens > .minhaFoto {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 18vw;
-  border-radius: 50%;
-}
-
-.imagens > .circuloColorido {
-  position: absolute;
-  right: 7vw;
-  bottom: 2.2vw;
-  width: 22vw;
-}
-
-@media (max-width: 1100px) {
+@media (max-width: 768px) {
   .banner {
-    padding: 3.5rem 1.5rem;
+    padding: 1rem 2rem;
+    background-position-x: -250px;
+    margin-bottom: 10px;
+  }
+
+  .apresentacao {
+    width: 300px;
+    text-align: center;
   }
 
   .titulo {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.9rem;
   }
 
   .paragrafo {
-    margin-bottom: 1.5rem;
-  }
-
-  .imagens {
-    height: 338px;
-  }
-
-  .imagens > .minhaFoto {
-    width: 25vw;
-  }
-
-  .imagens > .circuloColorido {
-    right: 10vw;
-    width: 35vw;
-  }
-}
-
-@media (max-width: 744px) {
-  .banner {
-    padding: 2rem 1rem;
-    display: block;
-    text-align: center; /* Centraliza o conteúdo */
-  }
-
-  .titulo {
-    margin-bottom: 2rem;
-    text-align: left;
-  }
-
-  .paragrafo {
-    margin-bottom: 2rem;
-  }
-
-  .imagens {
-    height: 307px;
-    margin-top: 2rem; /* Adiciona espaço entre o texto e as imagens */
-  }
-
-  .imagens > .minhaFoto,
-  .imagens > .circuloColorido {
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
-
-  .imagens > .minhaFoto {
-    width: 170px;
-    transform: translate(5rem, 0px);
-  }
-
-  .imagens > .circuloColorido {
-    width: 240px;
-    transform: translate(-1.5rem, 0px);
-  }
-}
-
-@media (max-width: 480px) {
-  .banner {
-    padding: 2.5rem 2rem;
-    height: 320px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    line-height: 1.3rem;
     margin: 0;
-  }
-
-  .titulo {
-    margin-bottom: 2rem;
-
-  }
-
-  .imagens {
-    height: 50px; /* Ajusta a altura para caber o conteúdo */
-    padding: 0;
-    margin: 0;
-  }
-
-  .imagens > .minhaFoto {
-    width: 80px;
-    transform: translate(6rem, -14rem);
-  }
-
-  .imagens > .circuloColorido {
-    width: 130px;
-    transform: translate(4rem, -14rem);
   }
 }
