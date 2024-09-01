@@ -1,6 +1,7 @@
 .postModeloContainer {
   color: var(--cor-fonte-post);
   position: relative;
+  margin-top: 30px;
 }
 
 .fotoCapa,
@@ -20,14 +21,14 @@
 
 .titulo {
   font-family: var(--fonte-secundaria);
-  padding: 0 7.5rem;
-  font-size: 2rem;
+  padding: 1rem 4.5rem 1rem;
+  font-size: 1.6rem;
   display: flex;
   align-items: center;
 }
 
 .postConteudoContainer {
-  padding: 2.5rem 7.5rem 4.5rem;
+  padding: 1.2rem 4.5rem 4.5rem;
 }
 
 @media (max-width: 744px) {
@@ -36,18 +37,18 @@
   }
 }
 
-@media (max-width: 744px) {
+@media (max-width: 768px) {
   .fotoCapa,
   .titulo {
     height: 20px;
   }
 
   .titulo {
-    padding: 0 1rem;
+    padding: 0 1.2rem 1rem;
     font-size: 1rem;
   }
 
   .postConteudoContainer {
-    padding: 2rem 1rem 1.5rem;
+    padding: 0.5rem 1.2rem 1.5rem;
   }
 }
