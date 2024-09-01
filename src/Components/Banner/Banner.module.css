@@ -29,7 +29,8 @@
 
 @media (max-width: 768px) {
   .banner {
-    padding: 1rem 2rem;
+    height: 400px;
+    padding: 0 2rem;
     background-position-x: -250px;
     margin-bottom: 10px;
     justify-content: center;
@@ -50,5 +51,12 @@
     font-size: 1rem;
     line-height: 1.3rem;
     margin: 0;
+  }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  /* Ajustes específicos para iPhone XR */
+  .banner {
+    background-size: 150vh;
   }
 }

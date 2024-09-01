@@ -22,6 +22,11 @@
 
 @media (max-width: 480px) {
   .rodape {
-    height: 30px;
+    height: 40px;
+  }
+
+  .rodape img {
+    width: 25px;
+    height: 25px;
   }
 }
