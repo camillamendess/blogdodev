@@ -58,5 +58,52 @@
   /* Ajustes específicos para iPhone XR */
   .banner {
     background-size: 150vh;
+    height: 400px;
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  /* Ajustes específicos para iPhone X, XS, 11 Pro */
+  .banner {
+    background-size: 120vw;
+    height: 350px;
+    padding: 0 1.5rem;
+  }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  /* Ajustes específicos para iPhone XS Max, 11 Pro Max */
+  .banner {
+    background-size: 160vw;
+    height: 450px;
+    padding: 0 2.5rem;
+  }
+}
+
+@media only screen and (device-width: 360px) and (device-height: 780px) and (-webkit-device-pixel-ratio: 3) {
+  /* Ajustes específicos para iPhone 12 Mini */
+  .banner {
+    background-size: 130vw;
+    height: 350px;
+    padding: 0 1.5rem;
+  }
+}
+
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  /* Ajustes específicos para iPhone 12, 12 Pro */
+  .banner {
+    background-size: 156vh;
+    height: 400px;
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
+  /* Ajustes específicos para iPhone 12 Pro Max */
+  .banner {
+    background-size: 142vh;
+    height: 400px;
+    padding: 0 2.5rem;
   }
 }
