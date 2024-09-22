@@ -16,12 +16,12 @@
 
 .logos {
   display: flex;
-  gap: 6px;
+  gap: 7px;
 }
 
 .rodape img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   transition: transform 0.5s ease;
 }
 
