@@ -9,29 +9,20 @@ const SobreMim = () => {
         alt="EU"
         className={styles.fotoSobreMim}
       />
-
       <p className={styles.paragrafo}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, nobis
-        cupiditate libero nemo assumenda rem? Temporibus, vel! Autem, excepturi
-        voluptates?
+        Me chamo Camilla, sou desenvolvedora full stack e apaixonada por desenvolvimento web. Estou constantemente em busca de novos aprendizados para aprimorar minhas habilidades e crescer profissionalmente.
       </p>
       <p className={styles.paragrafo}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, nobis
-        cupiditate libero nemo assumenda rem? Temporibus, vel! Autem, excepturi
-        voluptates?
+        Sou natural da Bahia e estudo Ciência da Computação na Universidade Estadual do Sudoeste da Bahia (UESB), onde fui introduzida ao vasto universo da programação.
       </p>
       <p className={styles.paragrafo}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, nobis
-        cupiditate libero nemo assumenda rem?
+        Na faculdade, dei meus primeiros passos com lógica de programação em C++ e aprofundei meus conhecimentos em Programação Orientada a Objetos (POO) e estruturas de dados com Java.
       </p>
       <p className={styles.paragrafo}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, nobis
-        cupiditate libero nemo assumenda rem? Temporibus, vel! Autem, excepturi
-        voluptates?
+        Atualmente, estou focada em desenvolvimento web, utilizando tecnologias como Node.js, React, HTML, CSS, TypeScript e outros.
       </p>
       <p className={styles.paragrafo}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, nobis
-        cupiditate libero nemo assumenda rem?
+        Esse site foi criado como uma forma de praticar minhas habilidades em React e também para compartilhar conteúdos relevantes com a comunidade de desenvolvedores.
       </p>
     </div>
   );
