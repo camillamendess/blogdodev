@@ -4,7 +4,7 @@
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
   border-radius: 0px 0px 10px 10px;
   padding-bottom: 1.5rem;
-  transition: transform 0.2s;
+  transition: transform .2s;
 }
 
 .post:hover {
@@ -17,11 +17,29 @@
 
 .titulo {
   font-family: var(--fonte-secundaria);
-  font-size: 1.2rem;
-  color: black;
+  font-size: 1.25rem;
+  color: var(--azul-escuro);
   line-height: 1.75rem;
   margin: 1.5rem 0 1.75rem;
 }
+
+.botaoLer {
+  display: inline-block;
+  border-radius: 24px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  background-color: var(--azul-medio);
+  color: var(--branco);
+  border: 3px solid var(--azul-medio);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.botaoLer:hover {
+  border: 3px solid var(--azul-escuro);
+}
+
 
 @media (max-width: 1100px) {
   .post {
@@ -34,40 +52,6 @@
 
   .botaoLer {
     padding: 0.6875rem 1.5rem;
-    font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 744px) {
-  .post {
-    width: 90%;
-    margin: 0 auto 1.5rem auto; /* Centraliza os posts e ajusta o espaçamento */
-  }
-
-  .titulo {
-    font-size: 1.1rem;
-    margin: 1rem 0 1.5rem;
-  }
-
-  .botaoLer {
-    padding: 0.625rem 1.25rem;
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .post {
-    width: 100%;
-    margin: 0 auto 1.5rem auto; /* Ajusta os posts para ocuparem toda a largura da tela */
-  }
-
-  .titulo {
-    font-size: 1rem;
-    margin: 0.75rem 0 1.25rem;
-  }
-
-  .botaoLer {
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    font-size: 1.375rem;
   }
 }

@@ -1,9 +1,9 @@
 .tituloOutrosPosts {
   font-family: var(--fonte-secundaria);
   color: #363031;
-  font-size: 2.5rem;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  font-size: 1.6rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 
 .postsRecomendados {
